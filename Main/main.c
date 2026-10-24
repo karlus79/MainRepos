@@ -22,7 +22,7 @@ int main()
   pointeurTexte++;
   printf("Caractere n°4 : %c\n", *pointeurTexte);
 
-  *pointeurTexte = 'Z';
+  *pointeurTexte = 'A';
   printf("Chaine modifiée : %s\n", texte);
 
   return 0;
