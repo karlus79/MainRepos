@@ -9,5 +9,12 @@ int main()
 
   printf("Valeur via le pointeur : %d\n", *pointeur);
 
+  char texte[] = "Bonjour";
+  char *pointeurTexte = texte;
+  printf("Premier caractere : %c\n", *pointeurTexte);
+
+  pointeurTexte++;
+  printf("Caractere suivant : %c\n", *pointeurTexte);
+
   return 0;
 }
