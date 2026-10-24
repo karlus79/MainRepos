@@ -19,5 +19,8 @@ int main()
   pointeurTexte++;
   printf("Caractere n°3 : %c\n", *pointeurTexte);
 
+  pointeurTexte++;
+  printf("Caractere n°4 : %c\n", *pointeurTexte);
+
   return 0;
 }
