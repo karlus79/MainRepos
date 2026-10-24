@@ -14,7 +14,10 @@ int main()
   printf("Premier caractere : %c\n", *pointeurTexte);
 
   pointeurTexte++;
-  printf("Caractere suivant : %c\n", *pointeurTexte);
+  printf("Caractere n°2 : %c\n", *pointeurTexte);
+
+  pointeurTexte++;
+  printf("Caractere n°3 : %c\n", *pointeurTexte);
 
   return 0;
 }
